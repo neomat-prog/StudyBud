@@ -36,3 +36,5 @@ As of right now the API allows you to GET the parameteres of any desired room ho
 ## Aknowledgement
 
 ❗ Created this project using the tutorial/course from Traversy Media ❗
+
+Trying to learn Django by evolving this project into something more interesting

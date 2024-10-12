@@ -1,5 +1,5 @@
 
-# ItChat a discord-like application 
+# StudyBud a discord-like application 
 
 Working web project I created using Django and Python. Works only on your local machine (as of right now) on your **local-machine**. Created it when watching a course on Django.
 As of right now I will start evolving this into a bigger project that could be used by a larger audience.

@@ -1,40 +1,78 @@
+<div align="center">
+<img width="30%" src="https://user-images.githubusercontent.com/72341453/134747028-7e2d90cc-a92f-4f66-815e-54a0d50cca54.PNG">
 
-# StudyBud a discord-like application 
+# StudyBuddy
+</div>
 
-Working web project I created using Django and Python. Works only on your local machine (as of right now) on your **local-machine**. Created it when watching a course on Django.
-As of right now I will start evolving this into a bigger project that could be used by a larger audience.
+### Cloning the repository
 
-## 🤖 Deployment 
-
-In order to deploy this project, head on into the folder with all the other folders and main files, especially the one "manage.py".
-Down below copy and paste this command into your desired terminal.
-
+--> Clone the repository using the command below :
 ```bash
-  python manage.py runserver
-```
-Next just ctrl-click the https://127.0.0.1:8000 in the terminal to redirect you to the project.
-## API Reference
+git clone https://github.com/divanov11/StudyBud.git
 
-#### Get all items
-
-```http
-  {url}/api/rooms
 ```
 
-As of right now the API allows you to GET the parameteres of any desired room hosted on your local machine.
+--> Move into the directory where we have the project files : 
+```bash
+cd StudyBud
+
+```
+
+--> Create a virtual environment :
+```bash
+# Let's install virtualenv first
+pip install virtualenv
+
+# Then we create our virtual environment
+virtualenv envname
+
+```
+
+--> Activate the virtual environment :
+```bash
+envname\scripts\activate
+
+```
+
+--> Install the requirements :
+```bash
+pip install -r requirements.txt
+
+```
+
+#
+
+### Running the App
+
+--> To run the App, we use :
+```bash
+python manage.py runserver
+
+```
+
+> ⚠ Then, the development server will be started at http://127.0.0.1:8000/
+
+#
+
+### App Preview :
+
+<table width="100%"> 
+<tr>
+<td width="50%">      
+&nbsp; 
+<br>
+<p align="center">
+  Feed Home
+</p>
+<img src="https://user-images.githubusercontent.com/72341453/134747262-0a92233d-8010-40f8-84c5-8d94895aac44.PNG">
+</td> 
+<td width="50%">
+<br>
+<p align="center">
+  Room Conversation Preview
+</p>
+<img src="https://user-images.githubusercontent.com/72341453/134747155-3ca5b55f-b064-4741-aeae-abe90bddf41e.PNG">  
+</td>
+</table>
 
 
-## Tech Stack
-
-**Client:**  Python, HTML, CSS3
-
-**Server:**  Django
-
-
-
-
-## Aknowledgement
-
-❗ Created this project using the tutorial/course from Traversy Media ❗
-
-Trying to learn Django by evolving this project into something more interesting
